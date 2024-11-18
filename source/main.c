@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <stdio.h>
 
-#define DEVCON_PATH "C:\\Path\\To\\devcon.exe"
+#define DEVCON_PATH "\"C:\\Program Files (x86)\\Windows Kits\\10\\Tools\\10.0.26100.0\\x64\\devcon.exe\""
 #define DEVICE_ID "FTDIBUS\\VID_0403+PID_6001+FTB6SPL3A\\0000"
 #define PROGRAM_PATH "E:\\deej\\deej.exe"
 
@@ -46,7 +46,6 @@ int main() {
     RunCommand(enableCommand);
     ShowNotification("Device enabled");
 
-    // Запуск программы
     RunProgram(PROGRAM_PATH);
 
     return 0;
