@@ -3,7 +3,7 @@ try {
     Get-Process -Name "SignalRgb" -ErrorAction SilentlyContinue | Stop-Process -Force
 
     Write-Host "Shutting down Razer Synapse and Fury ctrl"
-    Get-Process -Name "Synapse" -ErrorAction SilentlyContinue | Stop-Process -Force
+    Get-Process -Name "Razer Synapse 3" -ErrorAction SilentlyContinue | Stop-Process -Force
     Get-Process -Name "FuryControllerService" -ErrorAction SilentlyContinue | Stop-Process -Force
 
     Write-Host "Synapse and fury disabled, waiting 5 seconds"
