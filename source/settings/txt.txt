@@ -1,0 +1,1 @@
+-ExecutionPolicy Bypass -File "C:\Users\graev\OneDrive\Рабочий стол\Autolauncher\source\script.ps1"
